@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Skills msg="Welcome to Your Vue.js App"/>
+    <SkillsWrapper msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import Skills from './components/Skills.vue';
+import SkillsWrapper from './components/SkillsWrapper.vue';
 
 export default {
   name: 'App',
   components: {
-    Skills
+    SkillsWrapper
 }
 }
 </script>
